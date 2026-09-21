@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Velasco | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Utilizo FontAwesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar superior -->
+    <header class="header">
+        <div class="header-left">
+            <a href="https://github.com/Antoniovelascodev" target="_blank" class="icon-btn" title="GitHub"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/antonio-velasco-wilcock/" target="_blank" class="icon-btn"
+                title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:antoniovelasco.dev@gmail.com" class="icon-btn" title="Correo electrónico"><i
+                    class="fas fa-envelope"></i></a>
+        </div>
+
+        <!-- Bloque Central: Menú de navegación flotante / anclas -->
+        <nav class="nav-central">
+            <a href="#proyectos" class="nav-icon-link" title="Proyectos">
+                <i class="fas fa-folder-open"></i>
+            </a>
+            <a href="#estudios" class="nav-icon-link" title="Estudios y Formación">
+                <i class="fas fa-graduation-cap"></i>
+            </a>
+            <a href="#experiencia" class="nav-icon-link" title="Experiencia Laboral">
+                <i class="fas fa-briefcase"></i>
+            </a>
+            <a href="#contacto" class="nav-icon-link" title="Contacto">
+                <i class="fas fa-paper-plane"></i>
+            </a>
+        </nav>
+
+        <!-- Bloque Derecho: Selector de Idioma -->
+        <div class="lang-selector">
+            <a href="indexEsp.html" class="lang-flag active" title="Español">
+                <img src="https://flagcdn.com/w40/es.png" alt="Bandera de España" class="flag-img">
+            </a>
+            <a href="indexEn.html" class="lang-flag" title="English">
+                <img src="https://flagcdn.com/w40/gb.png" alt="UK Flag" class="flag-img">
+            </a>
+        </div>
+    </header>
+
+    <!-- Sección Principal -->
+    <main class="hero-section">
+        <div class="hero-text">
+            <h1>¡Hola! ✌️<br>Soy <span class="highlight">Antonio Velasco Wilcock</span></h1>
+            <h2>Multiplatform App Developer (DAM)</h2>
+            
+            <!-- BADGE BILINGÜE EN PÁGINA PRINCIPAL -->
+            <div class="hero-badges">
+                <span class="badge-bilingual"><i class="fas fa-language"></i> Bilingüe Nativo (ES / EN)</span>
+            </div>
+
+            <div class="hero-actions">
+                <a href="#contacto" class="btn-primary">Descargar CV</a>
+                <a href="https://github.com/Antoniovelascodev" target="_blank" class="social-icon-btn" title="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/antonio-velasco-wilcock/" target="_blank" class="social-icon-btn"
+                    title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:antoniovelasco.dev@gmail.com" class="email-btn" title="Enviar correo">
+                    <i class="fas fa-envelope"></i>
+                    <span>antoniovelasco.dev@gmail.com</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image-container">
+            <div class="blob-frame">
+                <img src="images/profilePicture.jpg" alt="Antonio Velasco">
+            </div>
+        </div>
+    </main>
+
+    <!-- SECCIÓN 1: PROYECTOS DESTACADOS -->
+    <section id="proyectos" class="section-container">
+        <h2 class="section-title"><i class="fas fa-folder-open"></i> Proyectos Destacados</h2>
+
+        <div class="projects-grid">
+
+            <!-- Tarjeta 1: MMA Manager (TFG) -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fa-solid fa-hand-fist project-icon"></i>
+                </div>
+                <h3>Underground MMA Career <span style="color: #f2ff00; font-size: 0.75rem;">Próximamente</span></h3> 
+                <p>Simulador táctico de carrera y combate de MMA desarrollado en Flutter. Implementación de lógica
+                    orientada a objetos en Dart, gestión de atributos y sistema de progresión.</p>
+                <div class="project-tags">
+                    <span>Flutter</span>
+                    <span>Dart</span>
+                    <span>POO</span>
+                    <span>TFG</span>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2: SES Hospedajes -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-hotel project-icon"></i>
+                    <div class="project-links">
+                        <a href="https://github.com/Antoniovelascodev/CheckHub" target="_blank" title="Ver código"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>CheckHub</h3>
+                <p>Aplicación de escritorio en Java diseñada para la automatización y cumplimiento de la normativa de
+                    registro de hospedajes turísticos en España.</p>
+                <div class="project-tags">
+                    <span>Java</span>
+                    <span>MySQL</span>
+                    <span>Flutter</span>
+                    <span>Dart</span>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3: IMC Calculator -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-calculator project-icon"></i>
+                    <div class="project-links">
+                        <a href="https://github.com/Antoniovelascodev/ImcCalculator" target="_blank"
+                            title="Ver código"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>IMC Calculator</h3>
+                <p>Calculadora de Índice de Masa Corporal con interfaz de usuario personalizada, sliders interactivos y
+                    selección dinámica de género.</p>
+                <div class="project-tags">
+                    <span>Flutter</span>
+                    <span>Dart</span>
+                    <span>UI/UX</span>
+                </div>
+            </div>
+
+            <!-- Tarjeta 4: KartMania -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-car project-icon"></i>
+                    <div class="project-links">
+                        <a href="https://github.com/Antoniovelascodev/KartMania" target="_blank"
+                            title="Ver código"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>KartMania</h3>
+                <p>Página web creada para un proyecto sobre un establecimiento de karting ficticio, código totalmente mío sin uso de IA (por obligación).</p>
+                <div class="project-tags">
+                    <span>HTML5</span>
+                    <span>CSS</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: ESTUDIOS Y FORMACIÓN -->
+    <section id="estudios" class="section-container">
+        <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Formación e Idiomas</h2>
+
+        <div class="timeline">
+
+            <!-- Prácticas Futuras (2027) -->
+            <div class="timeline-item">
+                <div class="timeline-dot" style="background: #f2ff00; box-shadow: 0 0 10px #f2ff00;"></div>
+                <div class="timeline-date">Enero 2027 — Abril 2027 (4 meses) <span
+                        style="color: #f2ff00; font-size: 0.75rem;">Próximamente</span></div>
+                <div class="timeline-content">
+                    <h3>Prácticas Formativas — Accenture</h3>
+                    <p class="timeline-sub">
+                        Incorporación planificada para continuar el desarrollo profesional dentro de proyectos reales de consultoría
+                        tecnológica y desarrollo de software. Especialización interna en ámbitos requeridos para el proyecto.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Prácticas Pasadas -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Marzo 2025 — Junio 2025 (2 meses)</div>
+                <div class="timeline-content">
+                    <h3>Prácticas Formativas — Accenture</h3>
+                    <p class="timeline-sub">
+                        Desarrollo de prácticas, conociendo a la empresa y entendiendo su forma de trabajo. Realización 
+                        de cursos de especialización en diferentes lenguajes de programación. 
+                    </p>
+                </div>
+            </div>
+
+            <!-- Grado DAM -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2023 - Presente</span>
+                    <h3>Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+                    <p class="timeline-sub">Especialización en desarrollo móvil con Flutter-Dart, desarrollo backend con
+                        Java y bases de datos SQL.</p>
+                </div>
+            </div>
+
+            <!-- Idiomas y Perfil Internacional -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Competencia Lingüística</span>
+                    <h3>Perfil Bilingüe e Idiomas</h3>
+                    <p class="timeline-sub">
+                        • <strong>Español e Inglés:</strong> Bilingüe nativo.<br>
+                        • <strong>Italiano:</strong> Nivel básico (Experiencia internacional Erasmus en Italia).<br>
+                        • <strong>Alemán:</strong> En proceso de aprendizaje (Nivel principiante).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: EXPERIENCIA TÉCNICA Y LABORAL -->
+    <section id="experiencia" class="section-container">
+        <h2 class="section-title"><i class="fas fa-briefcase"></i> Otra Experiencia Técnica</h2>
+
+        <div class="timeline">
+            <!-- Electricista -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Experiencia Técnica Prevía</span>
+                    <h3>Técnico Electricista</h3>
+                    <p class="timeline-sub">
+                        Trabajo práctico de montaje, mantenimiento preventivo e interpretación de esquemas técnicos. Aporta capacidad analítica para la resolución de problemas en tiempo real, rigor en normas de seguridad y trabajo bajo presión.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACTO -->
+    <footer id="contacto" class="footer-container">
+        <h2>¿Hablamos?</h2>
+        <p>Estoy disponible para nuevas oportunidades y proyectos de desarrollo software.</p>
+
+        <div class="footer-actions">
+            <a href="mailto:antoniovelasco.dev@gmail.com" class="btn-primary"><i class="fas fa-envelope"></i> Enviar
+                Mensaje</a>
+            <a href="https://www.linkedin.com/in/antonio-velasco-wilcock/" target="_blank" class="social-icon-btn"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Antoniovelascodev" target="_blank" class="social-icon-btn"><i
+                    class="fab fa-github"></i></a>
+        </div>
+
+        <p class="copyright">&copy; 2026 Antonio Velasco Wilcock — AntonioVelascoDev</p>
+    </footer>
+
+</body>
+
+</html>
